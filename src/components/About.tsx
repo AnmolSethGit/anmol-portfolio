@@ -6,11 +6,8 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Full Stack Developer with 4+ years of experience building scalable web
-          applications using React.js, Angular, Next.js, Node.js, and NestJS. Skilled
-          in microservices architecture, CMS development, and low-code platforms.
-          Passionate about creating high-performance, production-ready solutions
-          from concept to deployment.
+          Cybersecurity and Cloud Professional specializing in cloud security and modern security platforms. Currently working with Prisma Cloud and Cortex Cloud at Palo Alto Networks, helping organizations secure their cloud infrastructure across AWS and DevOps environments. Passionate about cloud-native security, threat detection, and building scalable, secure systems.
+
         </p>
       </div>
     </div>

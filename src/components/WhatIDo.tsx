@@ -87,22 +87,23 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>FRONTEND</h3>
-              <h4>Building Interactive UIs</h4>
+              <h3>CLOUD SECURITY</h3>
+              <h4>Securing Modern Cloud Environments</h4>
               <p>
-                Crafting performant, responsive interfaces with modern frameworks.
-                From SPAs to micro-frontends, I deliver pixel-perfect experiences.
+                Implementing cloud-native security controls, threat detection, and posture
+                management to help organizations secure workloads, containers, and cloud
+                infrastructure.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">React.js</div>
-                <div className="what-tags">Angular</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">Material UI</div>
-                <div className="what-tags">HTML5</div>
-                <div className="what-tags">CSS3</div>
+                <div className="what-tags">Cortex Cloud</div>
+                <div className="what-tags">Prisma Cloud</div>
+                <div className="what-tags">CSPM</div>
+                <div className="what-tags">CWPP</div>
+                <div className="what-tags">Threat Detection</div>
+                <div className="what-tags">Container Security</div>
+                <div className="what-tags">Runtime Protection</div>
+                <div className="what-tags">Vulnerability Management</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -126,22 +127,58 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BACKEND</h3>
-              <h4>Scalable Server Architecture</h4>
+              <h3>DEVSECOPS</h3>
+              <h4>Security Integrated Into DevOps</h4>
               <p>
-                Designing robust APIs and microservices. From CMS platforms to
-                complex business logic, I build backends that scale.
+                Integrating security into CI/CD pipelines and DevOps workflows to ensure
+                applications and infrastructure are secure throughout the development lifecycle.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">NestJS</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">MongoDB</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">REST APIs</div>
-                <div className="what-tags">Microservices</div>
+                <div className="what-tags">DevSecOps</div>
+                <div className="what-tags">CI/CD Security</div>
+                <div className="what-tags">IaC Security</div>
+                <div className="what-tags">Shift Left Security</div>
+                <div className="what-tags">Git</div>
+                <div className="what-tags">Automation</div>
                 <div className="what-tags">Python</div>
+              </div>
+              <div className="what-arrow"></div>
+            </div>
+          </div>
+          <div
+            className="what-content what-noTouch"
+            ref={(el) => setRef(el, 1)}
+          >
+            <div className="what-border1">
+              <svg height="100%">
+                <line
+                  x1="0"
+                  y1="100%"
+                  x2="100%"
+                  y2="100%"
+                  stroke="white"
+                  strokeWidth="2"
+                  strokeDasharray="6,6"
+                />
+              </svg>
+            </div>
+            <div className="what-corner"></div>
+            <div className="what-content-in">
+              <h3>CLOUD INFRASTRUCTURE</h3>
+              <h4>Building Scalable Cloud Platforms</h4>
+              <p>
+                Designing and securing scalable cloud environments across AWS and
+                containerized platforms to support modern cloud-native applications.
+              </p>
+              <h5>Skillset & tools</h5>
+              <div className="what-content-flex">
+                <div className="what-tags">AWS</div>
+                <div className="what-tags">Docker</div>
+                <div className="what-tags">Kubernetes</div>
+                <div className="what-tags">Cloud Architecture</div>
+                <div className="what-tags">Networking</div>
+                <div className="what-tags">Linux</div>
               </div>
               <div className="what-arrow"></div>
             </div>
